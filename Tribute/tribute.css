@@ -1,0 +1,91 @@
+
+
+.container{
+    border: 4px solid black;
+    display: flex; 
+    padding: 20px;
+    background-image: linear-gradient(50deg, #bda9ba, #942694);
+}
+.container:hover{
+    border: 30px solid black;
+}
+.bio{
+    padding-left: 35px;
+}
+b{
+    font-size: 30px;
+    font-family:cursive;
+    color: rgb(16, 213, 213);
+}
+table tr td{
+    font-size:20px;
+    color: white;
+}
+.img h1{
+    font-family:'Courier New', Courier, monospace;
+}
+.img img{
+    width: 500px;
+    border-radius:30%;
+    border: 3px solid purple;
+}
+.img img:hover{
+    border-radius:50%;
+}
+table{
+   
+    padding:30px;
+}
+table td{
+    padding: 10px;
+}
+
+.life{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+.life h1:hover{
+    color: blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.org{
+    background-image: linear-gradient(50deg, #5138ce, #654cc9);
+    padding: 30px;
+}
+.org h1{
+    text-align: center;
+    font-size: 40px;
+}
+.org ul {
+    padding-left: 300px;
+    margin: 30px;
+    font-size: 20px;
+}
+.org ul li{
+    margin: 30px;
+    color: yellow;
+}
+.gallry{
+    text-align: center;
+}
+.gallry img{
+    width: 350px;
+    height: 300px;
+    padding: 30px;
+}
+
+.award{
+    padding: 30px;
+    font-size: 20px;
+    border:15px #942694;
+    border-style: double;
+}
+.award h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.info{
+    text-align: center;
+}

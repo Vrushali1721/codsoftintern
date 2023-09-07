@@ -1,0 +1,200 @@
+
+/* ----------Navbar-------*/
+#header{
+    position:sticky;
+    top:0;
+}
+nav {
+    background:rgb(41, 7, 73);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+    
+}
+nav h1 .logo{
+    font-size: x-large;
+   color:rgb(142, 69, 210);
+   letter-spacing: 2px;
+   
+}
+nav ul li {
+    justify-content: center;
+   display: inline;
+  
+   margin: 14px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+}
+
+nav ul li a:hover{
+   font-size: x-large;
+   color: rgb(149, 13, 154);
+}
+
+/* ----------About-------*/
+#About{
+    justify-content: space-around;
+    display: flex;
+    
+    background-color: rgb(91, 30, 149);
+}
+.aboutme{
+    color: bisque;
+    font-size: 30px;
+    letter-spacing:3px;
+    margin: 24px 0;
+}
+.aboutme button,.aboutme button a{
+    margin-top: 30px;
+    height: 35px;
+    width: 200px;
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.aboutme button:hover{
+    height: 40px;
+    background-color: rgb(169, 152, 184);
+    
+}
+.aboutme span{
+    color: rgb(92, 175, 235);
+   
+}
+.aboutme2 img{
+    margin: 20px 0;
+   border-radius: 150px 10px 150px 5px;
+   border: 5px solid rgb(55, 11, 97);
+    
+}
+.aboutme2 img:hover{
+    border: 15px solid rgb(55, 11, 97);
+}
+
+
+/* ----------Skills-------*/
+.myskill{
+    background-image: url(../images/skill.jpg);
+    background-repeat: no-repeat;
+    background-position:left;
+    margin: 4%;
+}
+.myskill p{ 
+    margin-left: 21%;
+    
+}
+.progress{
+    background-color:#e9ecef;
+    margin-left: 23%;
+    height: 23px;
+    width: 50%;
+}
+.progress-bar{
+    background-color: darkmagenta;
+    height: 23px;
+}
+
+
+
+
+/* ----------Project-------*/
+#project{
+    text-align: center;
+}
+.myproject{
+    display:flex;
+    justify-content: space-around;
+}
+.projects1,.projects2,.projects3,.projects4{
+    align-content: center;
+    border: 8px solid rgb(41, 5, 74);;
+    width: 20%;
+    box-shadow: 0 15px 30px ;
+    
+}
+.myproject img{
+    width: 99%;
+    height: 190px;
+    margin: 3px;
+}
+
+
+
+
+
+
+
+/* ----------Contact-------*/
+.container{
+    background-image: url(../images/contact1.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#contact form{
+    background-color: white;
+    width: 30%;
+    margin-left: 50%;
+    margin-top: 10%;
+    border-radius: 10px 100px 10px 50px;
+    border: 26px solid  rgb(91, 30, 149);
+    text-align: center;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+   
+    font-size: 20px;
+    border-radius: 8px;
+    outline-color: skyblue;
+    background-color: white;
+    font-size: 17px;
+    
+  }
+.con{
+    width: 300px;
+    height: 40px;
+    font-family: serif;
+    border-radius: 10px;
+    background:rgb(11, 1, 21);
+    font-size: 30px;
+    color: wheat;
+  }
+  p{
+    
+    font-size: 125%;
+  }
+a{
+font-size: 25px;
+}
+
+
+/* ----------Footer-------*/
+
+#Footer{
+    padding-top: 20px;
+}
+footer{
+    background:rgb(41, 7, 73);
+    display:flex;
+    color: white;
+    justify-content: space-around;
+    letter-spacing: 2px;
+}
+footer h1 .logo{
+    font-size: x-large;
+   color:rgb(142, 69, 210);
+   letter-spacing: 2px;
+   
+}
+footer ul li{
+    display: inline;
+    margin: 12px;
+   
+}
